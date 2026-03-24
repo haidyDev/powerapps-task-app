@@ -54,16 +54,6 @@ This demonstrates event-driven automation and integration between services.
 
 ---
 
-## Screenshots
-
-### App View
-![App view](app-main.png)
-
-### Power Automate Flow
-![Flow](flow-overview.png)
-
----
-
 ## Current Status
 
 Work in progress.
@@ -108,5 +98,4 @@ Planned improvements:
 
 ## Author
 
-Heidi Maunu  
-[LinkedIn](https://www.linkedin.com/in/heidimaunu/)
+Heidi Maunu
