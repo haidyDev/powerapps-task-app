@@ -1,58 +1,112 @@
-# Power Apps Task App (Work in Progress)
+# Power Apps Task Management App (Work in Progress)
 
-This is a simple task management app built with Microsoft Power Apps and SharePoint.
+A simple task management solution built using Microsoft Power Apps, SharePoint, and Power Automate.
+
+This project combines a Canvas app with backend data storage and automation to demonstrate a practical low-code business solution.
+
+---
 
 ## Overview
 
-The app is being developed as a learning project to practice building business applications with Power Apps and SharePoint as a data source.
+The application allows users to create and manage tasks with key attributes such as title, description, due date, and priority.
 
-At the current stage, the app supports basic task handling and demonstrates how a Canvas app can interact with a SharePoint list.
+In addition to the app itself, a Power Automate flow is used to trigger notifications when new tasks are created.
 
-## Current features
+This project was built as part of learning Microsoft Power Platform and developing real-world low-code solutions.
 
-- Add a new task
-- Set a due date
-- Set a priority level
-- View saved tasks in a gallery
+---
+
+## Features
+
+### Task Management (Power Apps)
+
+- Create tasks with:
+  - Title
+  - Description
+  - Due date
+  - Priority (High / Normal / Low)
+- Display tasks in a structured gallery layout
 - Delete tasks
-- Store task data in a SharePoint list
+- Clean and readable UI layout
 
-## Tech used
+### Data Storage (SharePoint)
+
+- Tasks stored in a SharePoint list
+- Supports text, date, and choice fields
+- Acts as backend for the app
+
+### Automation (Power Automate)
+
+- Trigger: When a new task is created
+- Condition: If task priority is **High**
+- Action: Send an email notification
+
+This demonstrates event-driven automation and integration between services.
+
+---
+
+## Tech Stack
 
 - Microsoft Power Apps (Canvas App)
-- SharePoint List
+- SharePoint (List as data source)
+- Power Automate
 - Power Fx
 
-## Status
-
-Work in progress.
-
-The current version focuses on core functionality first.  
-UI improvements, additional validation, and more polished task management features will be added later.
-
-## What I learned
-
-Through this project, I practiced:
-
-- Connecting Power Apps to a SharePoint list
-- Using Power Fx formulas such as `Patch`, `Refresh`, and `Remove`
-- Working with gallery layouts
-- Handling date and choice fields from SharePoint
-- Iterating on app structure and UI step by step
-
-## Next steps
-
-Planned improvements for the next version:
-
-- Improve gallery layout and overall UI
-- Add better field labels and validation
-- Add task status handling (for example: done / not done)
-- Refine the app into a cleaner portfolio-ready version
+---
 
 ## Screenshots
 
-Add screenshots here.
+### App View
+![App view](app-main.png)
+
+### Power Automate Flow
+![Flow](flow-overview.png)
+
+---
+
+## Current Status
+
+Work in progress.
+
+The current version focuses on:
+- Core functionality
+- Clean layout
+- Basic automation
+
+Further improvements will be made to enhance usability, UI consistency, and additional features.
+
+---
+
+## What I Learned
+
+Through this project, I practiced:
+
+- Building a Canvas app with Power Apps
+- Connecting Power Apps to SharePoint
+- Using Power Fx functions such as:
+  - `Patch`
+  - `Refresh`
+  - `Remove`
+- Working with gallery layouts and UI structure
+- Handling SharePoint data types (Choice, Date)
+- Creating automated flows with Power Automate
+- Implementing conditional logic in automation
+
+---
+
+## Next Steps
+
+Planned improvements:
+
+- Improve UI polish and consistency
+- Add input validation
+- Add search and filtering functionality
+- Enhance user experience
+- Expand automation (e.g. reminders)
+
+---
 
 ## Author
 
-Heidi Maunu
+Heidi Maunu  
+[LinkedIn](https://www.linkedin.com/in/heidimaunu/)
